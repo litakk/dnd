@@ -28,6 +28,7 @@ export const Column: React.FC<ColumnProps> = ({ title, tasks, onTaskDrop }) => {
     if (onTaskDrop) {
       onTaskDrop(taskTitle);
     }
+    
   };
 
   return (
